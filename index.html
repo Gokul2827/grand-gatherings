@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Grand Gatherings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"],[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+     <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+    <section id="home">
+      <div class="desktop1-container">
+        <div class="desktop1-desktop1">
+          <img
+            src="public/external/unsplashjnukykxlh8u2233-ffi4-2100w.png"
+            alt="unsplashJNuKyKXLh8U2233"
+            class="desktop1-unsplash-j-nu-ky-kx-lh8u"
+          />
+          <span class="desktop1-text"><span>Welcome to</span></span>
+          <span class="desktop1-text002"><span>Grand Gatherings!</span></span>
+          <span class="desktop1-text004">
+            <span>Your Premier Event Planning Destination.</span>
+          </span>
+          <span class="desktop1-text006">
+            <span>
+              where we turn your dreams into reality.From birthdays to romantic
+              proposals, we craft unforgettable experiences with meticulous
+              attention to detail and creative flair. Let's make your event
+              truly unforgettable.
+            </span>
+          </span>
+        </section>
+
+          <span class="desktop1-text008">
+            <span>Why Choose Grand Gatherings?</span>
+            <br />
+            <span></span>
+          </span>
+          <img
+            src="public/external/rectangle42262-8ea-800h.png"
+            alt="Rectangle42262"
+            class="desktop1-rectangle4"
+          />
+          <img
+            src="public/external/rectangle92264-f15-600h.png"
+            alt="Rectangle92264"
+            class="desktop1-rectangle9"
+          />
+          <img
+            src="public/external/rectangle22261-ff7-300h.png"
+            alt="Rectangle22261"
+            class="desktop1-rectangle2"
+          />
+          <img
+            src="public/external/rectangle52262-kmw-300h.png"
+            alt="Rectangle52262"
+            class="desktop1-rectangle5"
+          />
+          <img
+            src="public/external/rectangle62262-sip8-300h.png"
+            alt="Rectangle62262"
+            class="desktop1-rectangle6"
+          />
+          <img
+            src="public/external/rectangle72262-0zgo-300h.png"
+            alt="Rectangle72262"
+            class="desktop1-rectangle7"
+          />
+          <img
+            src="public/external/rectangle82262-dc4t-300h.png"
+            alt="Rectangle82262"
+            class="desktop1-rectangle8"
+          />
+          <img
+            src="public/external/rectangle32261-5x3-300h.png"
+            alt="Rectangle32261"
+            class="desktop1-rectangle3"
+          />
+          <span class="desktop1-text012">
+            <span>
+              Creativity and Innovation: Our team is constantly exploring new
+              trends and ideas to keep your event fresh and unique. Whether it's
+              a cutting-edge theme or a bespoke decor piece, we'll infuse
+              creativity into every aspect of your celebration.
+            </span>
+            <br />
+            <span></span>
+          </span> 
+          <span class="desktop1-text016">
+            <span class="desktop1-text017">|</span>
+           <span>Birthday Bash Bonanza:</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="desktop1-text021">
+            <span class="desktop1-text022">|</span>
+            <span>Small Functions:</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="desktop1-text026">
+            <span class="desktop1-text027">|</span>
+            <span>Intimate Gatherings:</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="desktop1-text031">
+            <span class="desktop1-text032">|</span>
+            <span>Customized Decor:</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="desktop1-text036">
+
+            <span>
+              Whether it's a whimsical children's party or a milestone
+              celebration for the young-at-heart, we'll design a birthday bash
+              that's as unique as the guest of honor.
+            </span>
+          </span>
+          <span class="desktop1-text038">
+            <span>
+              Planning a corporate event, baby shower, or anniversary
+              celebration? Our team specializes in crafting small functions with
+              big impact.
+            </span>
+          </span>
+          <span class="desktop1-text040">
+            <span>
+              Looking to host a cozy gathering with your closest friends and
+              family? We'll help you create an inviting atmosphere filled with
+              warmth and laughter.
+            </span>
+          </span>
+          <span class="desktop1-text042">
+            <span>
+              Elevate your event with our exquisite decorations, ranging from
+              elegant centerpieces to breathtaking floral arrangements. We'll
+              tailor every detail to suit your style and preferences.
+            </span>
+            <br />
+            <span></span>
+          </span>
+          <span class="desktop1-text046">
+            <span>
+              Stress-Free Experience: Planning an event should be exciting, not
+              overwhelming. With Grand Gatherings, you can relax knowing that
+              every detail is in expert hands, allowing you to savor every
+              moment of your special day.
+            </span>
+            <br />
+            <span></span>
+          </span>
+          
+          <span class="desktop1-text050">
+            <section id="aboutus">
+            <span>
+              At Grand Gatherings, we understand that every celebration is a
+              cherished moment in life. Whether it's a birthday bash, a romantic
+              proposal, or any other special occasion, we're here to turn your
+              dreams into reality. With our meticulous attention to detail and
+              creative flair, we'll transform your event into an unforgettable
+              experience.
+            </span>
+          </section>
+            <br />
+            <span></span>
+          </span>
+        
+          <span class="desktop1-text054">“</span>
+          <span class="desktop1-text055">“</span>
+          <span class="desktop1-text056">
+            <section id="service"><span>Service</span></section> 
+            <br />
+            <span></span>
+          </span>
+          <span class="desktop1-text060"><span>About Us</span></span>
+          <img
+            src="public/external/line12263-zaco.svg"
+            alt="Line12263"
+            class="desktop1-line1"
+          />
+          <img
+            src="public/external/line22263-dre.svg"
+            alt="Line22263"
+            class="desktop1-line2"
+          />
+          <img
+            src="public/external/line32264-e73l.svg"
+            alt="Line32264"
+            class="desktop1-line3"
+          />
+          <span class="desktop1-text062">
+            <span>Your Premier Event Planning Destination.</span>
+          </span>
+          <span class="desktop1-text064"><span>Quick Links</span></span>
+          <span class="desktop1-text066"><span>Contact Info</span></span>
+          <span class="desktop1-text068"><span>Enquire Now</span></span>
+          <span class="desktop1-text070"><span>+91 9176397588</span></span>
+          <span class="desktop1-text072"><span>+91 8056247797</span></span>
+          <span class="desktop1-text074"><span>Instagram</span></span>
+          <span class="desktop1-text076">
+            <span>grandgatheringz@gmail.com</span>
+          </span>
+          <span class="desktop1-text078"><span></span></span>
+          <span class="desktop1-text080"><span></span></span>
+          <span class="desktop1-text082">
+            @2024 Grand Gatherings. All right Reserved.
+          </span>
+          <img
+            src="public/external/gmail2266-frbp-200h.png"
+            alt="Gmail2266"
+            class="desktop1-gmail"
+          />
+          <img
+            src="public/external/whatsapp2265-tfi8-200h.png"
+            alt="Whatsapp2265"
+            class="desktop1-whatsapp"
+          />
+          <img
+            src="public/external/whatsapp2292-o5kq-200h.png"
+            alt="Whatsapp2292"
+            class="desktop1-whatsapp1"
+          />
+          <img
+            src="public/external/instagram2265-0ihj-200h.png"
+            alt="Instagram2265"
+            class="desktop1-instagram"
+          />
+          <img
+            src="public/external/whatsappimage20240319at224322325-qk3e-600w.png"
+            alt="WhatsAppImage20240319at224322325"
+            class="desktop1-whats-app-image20240319at22432"
+          />
+          <div class="desktop1-group1">
+            <img
+              src="public/external/Group 1.png"
+              alt="Ellipse22298"
+              class="desktop1-ellipse2"
+            />
+            
+          </div>
+          <div class="desktop1-group2">
+            <img
+              src="public/external/Group 2.png"
+              alt="Ellipse22325"
+              class="desktop1-ellipse21"
+            />
+          </div>
+          <img
+            src="public/external/line42822-kit.svg"
+            alt="Line42822"
+            class="desktop1-line42"
+          />
+          <img
+            src="public/external/line62834-dife.svg"
+            alt="Line62834"
+            class="desktop1-line62"
+          />
+          <img
+            src="public/external/line52823-cpc.svg"
+            alt="Line52823"
+            class="desktop1-line52"
+          />
+          <img
+            src="public/external/rectangle162826-nmgb-500h.png"
+            alt="Rectangle162826"
+            class="desktop1-rectangle16"
+          />
+          <img
+            src="public/external/rectangle172827-wds-500h.png"
+            alt="Rectangle172827"
+            class="desktop1-rectangle17"
+          />
+          <img
+            src="public/external/rectangle182828-hxg-500h.png"
+            alt="Rectangle182828"
+            class="desktop1-rectangle18"
+          />
+          <img
+            src="public/external/rectangle92829-xe4-500h.png"
+            alt="Rectangle92829"
+            class="desktop1-rectangle91"
+          />
+          <img
+            src="public/external/rectangle112821-y74i-500h.png"
+            alt="Rectangle112821"
+            class="desktop1-rectangle11"
+          />
+          <img
+            src="public/external/rectangle132821-4skm-500h.png"
+            alt="Rectangle132821"
+            class="desktop1-rectangle13"
+          />
+          <img
+            src="public/external/rectangle102821-21o-500h.png"
+            alt="Rectangle102821"
+            class="desktop1-rectangle10"
+          />
+          <img
+            src="public/external/rectangle122821-eve-500h.png"
+            alt="Rectangle122821"
+            class="desktop1-rectangle12"
+          />
+          <img
+            src="public/external/rectangle142821-7a1-500h.png"
+            alt="Rectangle142821"
+            class="desktop1-rectangle14"
+          />
+          
+          <span class="desktop1-text084">
+            <section id="testimonials"> <span>Why customers love us?</span></section>
+          </span>
+       
+          <span class="desktop1-text086"><span>Gokulakrishnan</span></span>
+          <span class="desktop1-text088"><span>Varun</span></span>
+          <span class="desktop1-text090"><span>Priya</span></span>
+          <span class="desktop1-text092">
+            <span>
+              “I had a amazing experience with this team. Their work was very
+              professional. i never had any worry about the decorations. They
+              made my son's birthday decoration so beautiful.”
+            </span>
+          </span>
+          <span class="desktop1-text094">
+            <span>
+              “Such an amazing team for events, budget friendly, am much happy
+              for chosen this team for my mom's bday. They done an wonderful
+              decoration within our budget .Thank you team”.
+            </span>
+          </span>
+          <span class="desktop1-text096">
+            <span>
+              "The best event planners in Chennai. I called them 1day before
+              birthday party. They decorated the stage nicely with the suggested
+              design. I would highly recommend grand gathering event
+              organisers”.
+            </span>
+          </span>
+          
+          <span class="desktop1-text098"><span>Testimonials</span></span>
+          <span class="desktop1-text100">“</span>
+          <span class="desktop1-text101">“</span>
+          <span class="desktop1-text102">“</span>
+        
+          <img
+            src="public/external/star62822-e0gl.svg"
+            alt="Star62822"
+            class="desktop1-star6"
+          />
+          <img
+            src="public/external/star112822-w7lp.svg"
+            alt="Star112822"
+            class="desktop1-star11"
+          />
+          <img
+            src="public/external/star32822-ps1q.svg"
+            alt="Star32822"
+            class="desktop1-star3"
+          />
+          <img
+            src="public/external/star72822-enps.svg"
+            alt="Star72822"
+            class="desktop1-star7"
+          />
+          <img
+            src="public/external/star122822-jd3n.svg"
+            alt="Star122822"
+            class="desktop1-star12"
+          />
+          <img
+            src="public/external/star22823-gc7w.svg"
+            alt="Star22823"
+            class="desktop1-star2"
+          />
+          <img
+            src="public/external/star162824-hrg.svg"
+            alt="Star162824"
+            class="desktop1-star16"
+          />
+          <img
+            src="public/external/star82823-oah.svg"
+            alt="Star82823"
+            class="desktop1-star8"
+          />
+          <img
+            src="public/external/star132823-1hk.svg"
+            alt="Star132823"
+            class="desktop1-star13"
+          />
+          <img
+            src="public/external/star42823-zxyj.svg"
+            alt="Star42823"
+            class="desktop1-star4"
+          />
+          <img
+            src="public/external/star92823-4old.svg"
+            alt="Star92823"
+            class="desktop1-star9"
+          />
+          <img
+            src="public/external/star142823-z5g.svg"
+            alt="Star142823"
+            class="desktop1-star14"
+          />
+          <img
+            src="public/external/star52823-3q8l.svg"
+            alt="Star52823"
+            class="desktop1-star5"
+          />
+          <img
+            src="public/external/star102823-pd3.svg"
+            alt="Star102823"
+            class="desktop1-star10"
+          />
+          <img
+            src="public/external/star152823-tqi5.svg"
+            alt="Star152823"
+            class="desktop1-star15"
+          />
+          <img
+            src="public/external/man3075-pjyh-200h.png"
+            alt="Man3075"
+            class="desktop1-man"
+          />
+          <img
+            src="public/external/man3077-o9y-200h.png"
+            alt="Man3077"
+            class="desktop1-man1"
+          />
+          <img
+            src="public/external/man3074-u6u-200h.png"
+            alt="Man3074"
+            class="desktop1-man2"
+          />
+       <header>
+          <div class="desktop1-group3">
+            <i class='bx bx-menu' ></i>
+            <img
+              src="public/external/rectangle193078-uus5-200h.png"
+              alt="Rectangle193078"
+              class="desktop1-rectangle19"
+            /><a href="#"><img
+              src="public/external/whatsappimage20240319at224312295-fa8j-200h.png"
+              alt="WhatsAppImage20240319at224312295"
+              class="desktop1-whats-app-image20240319at22431"
+            /></a>
+            
+            <nav class="list">
+              <ul>
+            <li class="desktop1-text103"><a href="#home" class="active">Home</a></li>
+            <li class="desktop1-text105"><a href="#aboutus">About Us</a></li>
+            <li class="desktop1-text107"><a href="#service">Service</a></li>
+            <li class="desktop1-text109"><a href="#testimonials">Testimonials</a></li>
+           <li><a href="register.html"><button class="desktop1-text111">Enquire Now</button></a></li>
+              </ul>
+          </nav>
+          <div class="dropdown">
+            <li class="1"><a href="#home" class="active">Home</a></li>
+            <li class="2"><a href="#service">Service</a></li>
+            <li class="3"><a href="#aboutus">About us</a></li>
+            <li class="4"><a href="#testimonials">Testimonials</a></li>
+           <li><a href="register.html" class="action_btn">Enquire Now</a></li>
+          </div>
+          </div>
+
+        </header>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
