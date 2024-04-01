@@ -16,24 +16,24 @@
     <img src="public/external/whatsappimage20240319at224322325-qk3e-600w.png" alt="">
     <p class="topic">where we turn your dreams into reality. From birthdays to romantic proposals, we craft unforgettable experiences with meticulous attention to detail and creative flair. Let's make your event truly unforgettable.</p>
     <h2>Enquire now</h2>
-    <form class="form">
+    <form class="form" method="post"  action="" name="contact-form">
         <table>
-            <tr>
+            <tr >
                <td>Name :</td>
-              <td><input type="text" placeholder="name"></td>
+              <td><input type="text" placeholder="name"name="name" ></td>
             </tr>
-            <tr>
+            <tr >
                 <td>Phone Number :</td>
-               <td><input type="text" placeholder="mobile number"></td>
+               <td><input type="number" placeholder="mobile number"name="number" ></td>
              </tr>
-             <tr>
+             <tr  >
                 <td>Event Name :</td>
-               <td><input type="text" placeholder="event name"></td>
+               <td><input type="text" placeholder="event name"name="event"></td>
              </tr>
         
     </table>
-    <button type="submit">Submit</button>
+    <button type="submit" value="submit" id="submit">Submit</button>
     </form>
-
+   <script src="register.js"></script>
 </body>
 </html>
