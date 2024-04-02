@@ -14,7 +14,7 @@
   height: 4478px;
   display: flex;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
@@ -22,6 +22,7 @@
 .desktop1-unsplash-j-nu-ky-kx-lh8u {
   top: -114px;
   left: -569px;
+  display: none;
   width: 2039px;
   height: 876px;
   position: absolute;
@@ -29,7 +30,7 @@
 .desktop1-text {
   top: 277px;
   left: 214px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   height: auto;
   position: absolute;
   font-size: 24px;
@@ -59,7 +60,7 @@
 .desktop1-text004 {
   top: 325px;
   left: 214px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   width: 498px;
   height: auto;
   position: absolute;
@@ -75,15 +76,15 @@
 .desktop1-text006 {
   top: 418px;
   left: 214px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   width: 612px;
   height: auto;
   position: absolute;
   font-size: 20px;
-  font-style: Bold;
+  font-style:normal;
   text-align: left;
   font-family: Poppins;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -1410,14 +1411,12 @@ nav a:hover {
   padding-bottom: 3px;
   border-radius: 10px;
 }
-
-
-
-
-@media (width<=1440px){
-  .desktop1-desktop1{
-    max-width: 1440px;
-  }
+.desktop1-li{
+  top: 710px;
+  left: 220px;
+  width: 1030px;
+  height: 1px;
+  position: absolute;
 }
 @media (width<=430px){
   .desktop1-group3{
@@ -1443,7 +1442,7 @@ nav a:hover {
 .desktop1-desktop1 {
   width: 100%;
   height: 680px;
-  background-image: url('public/external/one.png');
+  /* background-image: url('public/external/one.png'); */
 }
 .desktop1-line1{
   display: none;
@@ -1497,7 +1496,6 @@ nav a:hover {
 .desktop1-text004 {
   top: 410px;
   left: 40px;
-  color: rgba(255, 255, 255, 1);
   width: 498px;
   height: auto;
   position: absolute;
@@ -1512,9 +1510,8 @@ nav a:hover {
 }
 .desktop1-text006 {
   top: 485px;
-  left: 40px;
-  color: rgba(255, 255, 255, 1);
-  width: 400px;
+  left: 40px;;  
+  width: 350px;
   font-size: 15px;
   font-style: Bold;
   text-align: left;
@@ -1829,6 +1826,13 @@ nav a:hover {
       }.desktop1-rectangle17{
         display: none;
       }
+      .desktop1-li{
+        width: 300px;
+        left: 60px;
+  height: 4px;
+  top:680px;
+  position: absolute;
+      }
     
 .desktop1-line62 {
   top: 3061.000244140625px;
@@ -1838,10 +1842,10 @@ nav a:hover {
   position: absolute;
 }
 .desktop1-group1 {
-  top: 185px;
-  left: 130px;
-  width: 250px;
-  height: 315px;}
+  top: 160px;
+  left: 150px;
+  width: 200px;
+  height: 215px;}
 .desktop1-ellipse21 {
   
   width: 80px;
@@ -1932,10 +1936,36 @@ nav a:hover {
   position: absolute}
  
 }
-@media(width<=420px){
-  .desktop1-desktop1 {
-    width: 100%;
-    height: 680px;
-    background-image: url('public/external/one.png');
-  }
+ 
+@media(width<=410px){
+  .desktop1-text002 {
+    top: 375px;
+    left: 170px;
+    font-size: 23px;
+}.desktop1-text004{
+  font-size: 21px;
+  width: 310px;
+}
+}
+@media (width<=395px) {
+  .desktop1-text002 {
+    top: 377px;
+    left: 170px;
+    font-size: 22px;
+}
+.desktop1-text004{
+  font-size: 20px;
+  width: 300px;
+}
+}
+@media(width<=380px){
+  .desktop1-text002 {
+    font-size: 21px;
+}
+}
+@media(width<=365px){
+  .desktop1-text002 {
+    font-size: 19px;
+    top: 380px;
+}
 }
